@@ -7,7 +7,7 @@ st.set_page_config(
     page_icon="🍊"
     )
 
-model = joblib.load('model/orange_quality_model.joblib')
+model = joblib.load('./model/orange_quality_model.joblib')
 
 st.title("🍊 Orange Quality Classification")
 st.markdown("Application to predict the quality of oranges")
